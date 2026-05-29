@@ -1,0 +1,5 @@
+proc import datafile="C:\Users\Shreya\Documents\Patients.csv" out=patients
+	dbms=csv
+	replace;
+	getnames=yes;
+run;
